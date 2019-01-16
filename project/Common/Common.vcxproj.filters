@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="NetMessage.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageChangePos.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessagePlayerId.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="glfwwindowmanager.h">
+      <Filter>WindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="windowmanager.h">
+      <Filter>WindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="glfwinputmanager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_funcs.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entityplayer.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="stringutils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="memorycontrol.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="asserts.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="entitycircle.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageGameSnapshot.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageNewPlayer.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageEntityDead.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitySerializer.h">
+      <Filter>Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCircleSerializer.h">
+      <Filter>Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayerSerializer.h">
+      <Filter>Serializers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageNewCircle.h">
+      <Filter>NetMessages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glfwwindowmanager.cpp">
+      <Filter>WindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="glfwinputmanager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="entityplayer.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="entitycircle.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NetMessages">
+      <UniqueIdentifier>{0ac4bc4a-63cd-406a-9e86-f926b446e6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowManager">
+      <UniqueIdentifier>{06e4d25b-0828-45ef-a4d8-3396bd7e3b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventManager">
+      <UniqueIdentifier>{7e9a7f65-6675-4488-80f7-aade32299cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{41fe09d2-39df-48db-b1fc-be67238bd4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{9fc2cb80-aab0-4a57-89ff-9171b8f347cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{1d512407-31ef-4877-9a19-042a2f93df0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{5588e6bc-585e-4f8d-a184-079658a37109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serializers">
+      <UniqueIdentifier>{45bd2e53-c017-4124-babb-2d8c63cfda35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
